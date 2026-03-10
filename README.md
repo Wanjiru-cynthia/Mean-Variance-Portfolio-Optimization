@@ -74,17 +74,17 @@ color-coded from purple (low) to yellow (high).
 ## Interpretation & Recommendations
 - The optimizer heavily favored **MSFT, GS and WMT** — high 
   return stocks with favorable risk-adjusted profiles
-- **PFE** received zero allocation — its -3.12% expected return 
+- **PFE** received zero allocation. Its -3.12% expected return 
   made it impossible to justify inclusion in an optimized portfolio
 - **WMT** received meaningful allocation despite lower returns 
-  than MSFT — its defensive low-volatility profile reduced overall 
+  than MSFT, its defensive low-volatility profile reduced overall 
   portfolio risk, improving the Sharpe Ratio
 - A Sharpe Ratio of **0.98** reflects the drag of underperforming 
-  healthcare stocks (PFE, JNJ) in the universe — removing them 
+  healthcare stocks (PFE, JNJ) in the universe, removing them 
   is expected to push the Sharpe Ratio above 1.2
 - The 2019–2024 period includes significant stress events — 
   COVID crash, 2022 rate hike selloff, Pfizer post-pandemic 
-  collapse — making these results conservative relative to 
+  collapse, making these results conservative relative to 
   a normalized market environment
 
 ## Tools
