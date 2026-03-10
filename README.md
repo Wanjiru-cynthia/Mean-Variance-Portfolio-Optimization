@@ -6,7 +6,7 @@ This project implements Markowitz Mean-Variance Optimization on a
 weights that maximize the Sharpe Ratio and visualize the Efficient 
 Frontier across 10,000 simulated portfolios.
 
-## Portfolio Universe
+## Portfolio Components
 | Ticker | Company | Sector |
 |--------|---------|--------|
 | MSFT | Microsoft | Technology |
@@ -24,8 +24,8 @@ Frontier across 10,000 simulated portfolios.
 
 ### Data
 Five years of daily closing prices (2019–2024) sourced via yfinance 
-— 1,509 trading days per stock. Period captures COVID crash, 2022 
-rate hike cycle, and post-pandemic normalization.
+(1,509) trading days per stock. Period captures COVID crash, 2022 
+rate hike cycle, and post-pandemic recovery.
 
 ### Expected Returns
 Mean historical annual returns calculated using PyPortfolioOpt's 
@@ -41,7 +41,7 @@ Portfolio weights optimized using PyPortfolioOpt's
 `EfficientFrontier` — maximizing the Sharpe Ratio subject to:
 - Weights sum to 1
 - No short selling (all weights ≥ 0)
-- Risk-free rate = 5.0% (US 1-year Treasury)
+- Risk-free rate = 5.0%
 
 ### Efficient Frontier
 10,000 randomly weighted portfolios simulated to map the full 
@@ -95,15 +95,6 @@ yfinance
 PyPortfolioOpt  
 Matplotlib
 
-## Next Steps
-- Rerun optimization excluding negative expected return stocks 
-  to evaluate Sharpe Ratio improvement
-- Incorporate forward-looking return estimates rather than 
-  historical means to improve optimization inputs
-- Add risk-parity optimization as an alternative to 
-  mean-variance
-- Overlay the Capital Market Line (CML) on the Efficient 
-  Frontier plot
 
 ## Author
 Cynthia Wanjiru | MS Quantitative Finance | Washington University in St Louis
