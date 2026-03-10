@@ -10,7 +10,7 @@ Frontier across 10,000 simulated portfolios.
 | Ticker | Company | Sector |
 |--------|---------|--------|
 | MSFT | Microsoft | Technology |
-| GOOGL | Alphabet | Technology |
+| GOOGL | Google | Technology |
 | JPM | JPMorgan Chase | Finance |
 | GS | Goldman Sachs | Finance |
 | JNJ | Johnson & Johnson | Healthcare |
