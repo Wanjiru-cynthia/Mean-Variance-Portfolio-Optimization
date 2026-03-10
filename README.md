@@ -88,12 +88,7 @@ color-coded from purple (low) to yellow (high).
   a normalized market environment
 
 ## Tools
-Python
-NumPy 
-Pandas  
-yfinance 
-PyPortfolioOpt  
-Matplotlib
+Python, NumPy, Pandas, yfinance, PyPortfolioOpt, Matplotlib
 
 
 ## Author
